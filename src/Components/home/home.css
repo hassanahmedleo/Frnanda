@@ -1,0 +1,396 @@
+body{
+    font-family: 'Roboto'
+}
+.post{
+    position: absolute;
+    bottom: 91%;
+    opacity: 0.8;
+    font-family:   'Roboto';
+
+}
+
+.welcome{
+    width: 100%;
+    max-width: 940px;
+    font-size: 20px;
+    color: white;
+    /* z-index: 5000;  */
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    margin-left: 3rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.marque{
+    width: 940px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 34%;
+}
+.marquee_h1{
+    margin-left: 3rem;
+    font-size: 91px;
+    color: white;
+    font-family: "Roboto";
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: 0em;
+    font-weight: 100 !important;
+    font-style: normal;
+    margin-bottom: 15px;
+ 
+}
+.marquee_p{
+    margin-left: 3rem;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1.4em;
+    text-transform: none;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-style: normal;
+    width: 62%;
+    color: rgba(255,255,255,.8);
+}
+.links{
+    position: absolute;
+    bottom: 28%;
+    margin-left:3rem;
+    display: flex;
+    direction: row;
+}
+.link_1{
+   width: 141.56px;
+   height:42px;
+   background:white;
+   border-radius:20px;
+   font-family: 'Roboto';
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   letter-spacing:2px;
+}
+.portuguse{
+    color:black !important;
+}
+.link_2{
+    width: 114.22px;
+    margin-left:1rem;
+    height:42px;
+    background:white;
+    border-radius:20px;
+    font-family: 'Roboto';
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    letter-spacing:2px;
+}
+.icons{
+    position: absolute;
+    bottom: 6%;
+    margin-left: 3rem;
+    color:white;
+}
+.youtube{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.icons:hover {
+color: rgba(255,255,255,.6);
+
+}
+.youtube:hover{
+    color: rgba(255,255,255,1) ;
+    cursor:pointer;
+    
+}
+
+/* media quries */
+
+@media screen and (min-width:1100px) and (max-width:1500px) {
+    .post{
+        bottom: 87%;
+    }
+    .marque{
+        bottom:34%;
+    }
+    .marquee_h1{
+        font-size:64px;
+        width:808px;
+    }
+
+    .links{
+       bottom:25%;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .post{
+        bottom: 93%;
+    }
+    .marque{
+        bottom:49%;
+    }
+    .marquee_h1{
+        font-size:68px;
+        width:452px;
+    }
+    .marquee_p{   
+        width:452px;
+    }
+
+    .links{
+       bottom:45%;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:66vh;
+    }
+    .icons{
+        bottom:38%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .post{
+        bottom: 91%;
+        width: 30%;
+    }
+    .marque{
+        bottom:33%;
+        width: 557px;
+    }
+    .marquee_h1{
+        font-size:68px;
+        width:557px;
+    }
+    .marquee_p{   
+        width:580px;
+    }
+
+    .links{
+       bottom:28%;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:89vh;
+    }
+    .icons{
+        bottom:17%;
+    }
+}
+
+
+@media screen and (max-width:540px) {
+    .post{
+        bottom: 90%;
+        margin-left:0.5rem;
+       
+    }
+    .marque{
+        bottom:33%;
+        width: 500px;
+    }
+    .marquee_h1{
+        font-size:51px;
+        width:492px;
+        margin-left:0.5rem;
+    }
+    .marquee_p{   
+        width:500px;
+        margin-left:0.5rem;
+    }
+
+    .links{
+       bottom:26%;
+       margin-left:0.5rem;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:100vh;
+    }
+    .icons{
+        bottom:5%;
+        margin-left:0.5rem;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .post{
+        bottom: 90%;
+        margin-left:0.5rem;
+       
+    }
+    .marque{
+        bottom:33%;
+        width: 370px;
+    }
+    .marquee_h1{
+        font-size:45px;
+        width:370px;
+        margin-left:0.5rem;
+    }
+    .marquee_p{   
+        width:370px;
+        margin-left:0.5rem;
+    }
+
+    .links{
+       bottom:26%;
+       margin-left:0.5rem;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:100vh;
+        object-fit: cover;
+    }
+    .icons{
+        bottom:5%;
+        margin-left:0.5rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .post{
+        bottom: 90%;
+        margin-left:0.5rem;
+       
+    }
+    .marque{
+        bottom:30%;
+        width: 350px;
+    }
+    .marquee_h1{
+        font-size:41px;
+        width:350px;
+        margin-left:0.5rem;
+    }
+    .marquee_p{   
+        width:350px;
+        margin-left:0.5rem;
+    }
+
+    .links{
+       bottom:23%;
+       margin-left:0.5rem;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:100vh;
+        object-fit: cover;
+    }
+    .icons{
+        bottom:5%;
+        margin-left:0.5rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .post{
+        bottom: 90%;
+        margin-left:0.5rem;
+       
+    }
+    .marque{
+        bottom:24%;
+        width: 320px;
+    }
+    .marquee_h1{
+        font-size:39px;
+        width:320px;
+        margin-left:0.5rem;
+    }
+    .marquee_p{   
+        width:320px;
+        margin-left:0.5rem;
+    }
+
+    .links{
+       bottom:15%;
+       margin-left:0.5rem;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:100vh;
+        object-fit: cover;
+    }
+    .icons{
+        bottom:5%;
+        margin-left:0.5rem;
+    }
+    .link_1{
+        width:131.44px;
+        height:39px;
+    }
+    .link_2{
+        width:131.44px;
+        height:39px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .post{
+        bottom: 88%;
+        margin-left:0.5rem;
+       
+    }
+    .marque{
+        bottom:11%;
+        width: 290px;
+    }
+    .marquee_h1{
+        font-size:34px;
+        width:290px;
+        margin-left:0.5rem;
+    }
+    .marquee_p{   
+        width:290px;
+        margin-left:0.5rem;
+    }
+
+    .links{
+       bottom:3%;
+       margin-left:0.5rem;
+    }
+    .youtube{
+        margin-right:8px;
+    }
+    .image_slide {
+        height:117vh;
+        object-fit: cover;
+    }
+    .icons{
+        bottom:-17%;
+        margin-left:0.5rem;
+ 
+    }
+    .youtube{
+        margin-bottom:3rem !important;
+    }
+    .link_1{
+        width:111.2px;
+        height:33px;
+        font-size:11px;
+    }
+    .link_2{
+        width:89.72px;
+        height:33px;
+        font-size:11px;
+    }
+}

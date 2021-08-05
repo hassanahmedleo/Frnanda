@@ -1,0 +1,67 @@
+.main{
+    background: #FFFFFF;
+    height: 93px;
+    width: 100%;
+    z-index: 7000;
+    position:fixed;
+    bottom: 0;
+    padding:22.5px;
+    line-height: 1.47em;
+
+}
+.portuges{
+    border-radius: 24px;
+    width: 138px;
+    height: 48px;
+    background: white;
+    color: #272727;
+    border-color: #272727;  
+    font-size:12px;
+    font-weight:bold;
+    border: 2px solid;
+}
+.portuges:hover{
+    background:#272727 !important;
+    color: white;
+    border-color: #272727;
+}
+.para{
+    margin: 0 0 1.25em;
+    font-size: 15px;  
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.47em;
+    color: #444141;
+
+}
+
+.icons_fotter{
+    display:flex;
+    justify-content:flex-end;
+    color:#222;
+    /* width:50%; */
+
+}
+.insta{
+    margin-right: 10px;
+    font-size: 22px;
+    
+}
+.icons_fotter:hover {
+
+ color: rgba(0, 0, 0, 0.5);
+
+}
+.insta:hover{
+
+    color: #222 ;
+    cursor:pointer;
+    border:none;
+    border-bottom:1px solid #222;
+    
+}
+.hovers:hover{
+    color: #222;
+    
+
+}
